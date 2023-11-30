@@ -7,7 +7,7 @@ import java.util.List;
 
 public class CustomerRepository implements CustomerDao {
     @Override
-    public List<Customer> findAll(Customer obj) {
+    public List<Customer> findAll() {
         return null;
     }
 

@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Set;
 
 public interface GeneralDao<T> {
-    List<T> findAll(T obj);
+    List<T> findAll();
     T findById(Long id);
     T findByName(String name);
     void save(T obj);  // not found id

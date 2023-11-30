@@ -6,8 +6,9 @@ import unit10.shop.entity.Address;
 import java.util.List;
 
 public class AddressRepository implements AddressDao {
+
     @Override
-    public List<Address> findAll(Address obj) {
+    public List<Address> findAll() {
         return null;
     }
 

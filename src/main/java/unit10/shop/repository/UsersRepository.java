@@ -7,7 +7,7 @@ import java.util.List;
 
 public class UsersRepository implements UsersDao {
     @Override
-    public List<Users> findAll(Users obj) {
+    public List<Users> findAll() {
         return null;
     }
 
